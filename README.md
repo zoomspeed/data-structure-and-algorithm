@@ -1,17 +1,17 @@
 # 기본 자료구조&알고리즘 정리
 
-## 1. 다중 반복문 (multiple loops)
-## 2. 배열 (array)
-## 3. 간단한 완전탐색 (Simple Brute-Force Algorithm) 1
-## 4. 간단한 완전탐색 (Simple Brute-Force Algorithm) 2
-## 5. 기본 정렬 (Basic Sort)
-## 6. 변수와 자료형 : 문자 (variable)
-##   		    문자열 (String)
-##                   함수 (function)
-## 7. 재귀함수 (basic recursive function)
-## 8. Advanced Brute-Force (Backtracking)
-## 9. 고급 정렬 (Advanced Sort)
-## 10. 이진탐색 (binary search)
+### 1. 다중 반복문 (multiple loops)
+### 2. 배열 (array)
+### 3. 간단한 완전탐색 (Simple Brute-Force Algorithm) 1
+### 4. 간단한 완전탐색 (Simple Brute-Force Algorithm) 2
+### 5. 기본 정렬 (Basic Sort)
+### 6. 변수와 자료형 : 문자 (variable)
+###   		    문자열 (String)
+###                   함수 (function)
+### 7. 재귀함수 (basic recursive function)
+### 8. Advanced Brute-Force (Backtracking)
+### 9. 고급 정렬 (Advanced Sort)
+### 10. 이진탐색 (binary search)
 ##     매개 변수 탐색 (parameter search)
 ## 11. 기본 자료구조 (basic data-structure)
 ## 12. stack & queue
