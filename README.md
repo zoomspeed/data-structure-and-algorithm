@@ -13,33 +13,33 @@
 ### 11. 변수와 자료형 : call by value
 ### 12. 재귀함수 (basic recursive function)
 ### 13. 수학적 귀납법 (mathematical induction)
-### 13. Advanced Brute-Force (Backtracking)
-### 14. 고급 정렬 (Advanced Sort)
-### 15. 합병 정렬 (Merge Sort)
-### 16. 퀵 정렬 (Quick Sort)
-### 17. 이진탐색 (binary search)
-### 18. 매개 변수 탐색 (parameter search)
-### 19. 기본 자료구조 (basic data-structure)
-### 20. 스택 (stack)
-### 21. 큐 (queue)
-### 22. 스택 & 큐 정리
-### 23. 트리 (Tree)
-### 24. 트리의 순회
-### 25. 우선순위 큐
-### 26. heap & 트리요약
-### 27. Adv recursive function
-### 28. Divide and conquer, Memorization
-### 29. Basic Dynamic Algorithm
-### 30. Intermediate Dynamic Algorithm
-### 31. Graph
-### 32. Library
-### 33. Graph traversal
-### 34. DFS
-### 35. BFS
-### 36. Graph Algorithm
-### 37. BFS & DFS Problems
-### 38. Greedy Algorithm
-### 39. Adv. dynamic programming
+### 14. Advanced Brute-Force (Backtracking)
+### 15. 고급 정렬 (Advanced Sort)
+### 16. 합병 정렬 (Merge Sort)
+### 17. 퀵 정렬 (Quick Sort)
+### 18. 이진탐색 (binary search)
+### 19. 매개 변수 탐색 (parameter search)
+### 20. 기본 자료구조 (basic data-structure)
+### 21. 스택 (stack)
+### 22. 큐 (queue)
+### 23. 스택 & 큐 정리
+### 24. 트리 (Tree)
+### 25. 트리의 순회
+### 26. 우선순위 큐
+### 27. heap & 트리요약
+### 28. Adv recursive function
+### 29. Divide and conquer, Memorization
+### 30. Basic Dynamic Algorithm
+### 31. Intermediate Dynamic Algorithm
+### 32. Graph
+### 33. Library
+### 34. Graph traversal
+### 35. DFS
+### 36. BFS
+### 37. Graph Algorithm
+### 38. BFS & DFS Problems
+### 39. Greedy Algorithm
+### 40. Adv. dynamic programming
 백준 온라인 저지는 프로그래밍 문제를 풀고 온라인으로 채점받을 수 있는 곳입니다.
 
     특징:
