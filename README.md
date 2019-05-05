@@ -12,7 +12,7 @@
 ### 10. 이진탐색 (binary search)
 ### 11. 매개 변수 탐색 (parameter search)
 ### 12. 기본 자료구조 (basic data-structure)
-### 13. stack & queue
+### 13. 스택 & 큐 (stack & queue)
 ### 14. 트리 (Tree)
 ### 15. Adv recursive function
 ### 16. Divide and conquer, Memorization
