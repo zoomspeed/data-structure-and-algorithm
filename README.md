@@ -42,7 +42,7 @@
 ### 40. Adv. dynamic programming
 
 
-    특징:
+    문제:
 
         200문제 업로드 완료.
 
