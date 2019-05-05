@@ -44,7 +44,10 @@
 
     문제:
 
-        200문제 업로드 완료.
+        Dynamic programming 30문제
+        Brute-Force Algorithm 30문제
+        DFS & BFS 50문제
+        Greedy 10문제
 
 채점 환경
 
