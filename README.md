@@ -5,25 +5,39 @@
 ### 3. 간단한 완전탐색 (Simple Brute-Force Algorithm) 1
 ### 4. 간단한 완전탐색 (Simple Brute-Force Algorithm) 2
 ### 5. 기본 정렬 (Basic Sort)
-### 6. 변수와 자료형 : 문자 (variable), 문자열 (String), 함수 (function)                   
-### 7. 재귀함수 (basic recursive function)
-### 8. Advanced Brute-Force (Backtracking)
-### 9. 고급 정렬 (Advanced Sort)
-### 10. 이진탐색 (binary search)
-### 11. 매개 변수 탐색 (parameter search)
-### 12. 기본 자료구조 (basic data-structure)
-### 13. 스택 & 큐 (stack & queue)
-### 14. 트리 (Tree)
-### 15. Adv recursive function
-### 16. Divide and conquer, Memorization
-### 17. Basic Dynamic Algorithm
-### 18. Intermediate Dynamic Algorithm
-### 19. Graph & DFS
-### 20. BFS
-### 21. Graph Algorithm
-### 22. BFS & DFS
-### 23. Greedy Algorithm
-### 24. Adv. dynamic programming
+### 6. 시간복잡도 (Time Complexity)
+### 7. 기본 정수론 (Basic Number Theory)
+### 8. 변수와 자료형 : 문자 (variable), 문자열 (String), 함수 (function)                   
+### 9. 변수와 자료형 : 포인터 (pointer), 메모리 (memory), 포인터와 배열 (pointer & array)
+### 10. 변수와 자료형 : call by value
+### 11. 재귀함수 (basic recursive function)
+### 12. Advanced Brute-Force (Backtracking)
+### 13. 고급 정렬 (Advanced Sort)
+### 14. 합병 정렬 (Merge Sort)
+### 15. 퀵 정렬 (Quick Sort)
+### 16. 이진탐색 (binary search)
+### 17. 매개 변수 탐색 (parameter search)
+### 18. 기본 자료구조 (basic data-structure)
+### 19. 스택 (stack)
+### 20. 큐 (queue)
+### 21. 스택 & 큐 정리
+### 22. 트리 (Tree)
+### 23. 트리의 순회
+### 24. 우선순위 큐
+### 25. heap & 트리요약
+### 26. Adv recursive function
+### 27. Divide and conquer, Memorization
+### 28. Basic Dynamic Algorithm
+### 29. Intermediate Dynamic Algorithm
+### 30. Graph
+### 31. Library
+### 32. Graph traversal
+### 33. DFS
+### 34. BFS
+### 35. Graph Algorithm
+### 36. BFS & DFS Problems
+### 37. Greedy Algorithm
+### 38. Adv. dynamic programming
 백준 온라인 저지는 프로그래밍 문제를 풀고 온라인으로 채점받을 수 있는 곳입니다.
 
     특징:
