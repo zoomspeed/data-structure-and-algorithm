@@ -9,20 +9,21 @@
 ### 7. 재귀함수 (basic recursive function)
 ### 8. Advanced Brute-Force (Backtracking)
 ### 9. 고급 정렬 (Advanced Sort)
-### 10. 이진탐색 (binary search), 매개 변수 탐색 (parameter search)
-### 11. 기본 자료구조 (basic data-structure)
-### 12. stack & queue
-### 13. 트리 (Tree)
-### 14. Adv recursive function
-### 15. Divide and conquer, Memorization
-### 16. Basic Dynamic Algorithm
-### 17. Intermediate Dynamic Algorithm
-### 18. Graph & DFS
-### 19. BFS
-### 20. Graph Algorithm
-### 21. BFS & DFS
-### 22. Greedy Algorithm
-### 23. Adv. dynamic programming
+### 10. 이진탐색 (binary search)
+### 11. 매개 변수 탐색 (parameter search)
+### 12. 기본 자료구조 (basic data-structure)
+### 13. stack & queue
+### 14. 트리 (Tree)
+### 15. Adv recursive function
+### 16. Divide and conquer, Memorization
+### 17. Basic Dynamic Algorithm
+### 18. Intermediate Dynamic Algorithm
+### 19. Graph & DFS
+### 20. BFS
+### 21. Graph Algorithm
+### 22. BFS & DFS
+### 23. Greedy Algorithm
+### 24. Adv. dynamic programming
 백준 온라인 저지는 프로그래밍 문제를 풀고 온라인으로 채점받을 수 있는 곳입니다.
 
     특징:
