@@ -12,6 +12,7 @@
 ### 10. 변수와 자료형 : 포인터 (pointer), 메모리 (memory), 포인터와 배열 (pointer & array)
 ### 11. 변수와 자료형 : call by value
 ### 12. 재귀함수 (basic recursive function)
+### 13. 수학적 귀납법 (mathematical induction)
 ### 13. Advanced Brute-Force (Backtracking)
 ### 14. 고급 정렬 (Advanced Sort)
 ### 15. 합병 정렬 (Merge Sort)
