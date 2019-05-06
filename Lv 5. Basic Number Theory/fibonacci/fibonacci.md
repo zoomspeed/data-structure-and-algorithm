@@ -41,7 +41,3 @@ n이 주어졌을 때, n번째 피보나치 수를 구하는 프로그램을 작
 ```
 5
 ```
-
-### 출처
-***
-ACM-ICPC Daejeon Nationalwide Internet Competition 2004 B번  
