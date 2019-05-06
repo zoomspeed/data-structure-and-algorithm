@@ -14,7 +14,7 @@
 
 아래 그림은 7×6공연장에서 대기번호 1번부터 42번까지의 관객이 좌석에 배정된 결과를 보여주고 있다.
 
-<img width="164" alt="jari2" src="https://user-images.githubusercontent.com/12872904/57214858-37dfe900-7026-11e9-8934-dd4e62b14f88.png">
+<img width="300" alt="jari2" src="https://user-images.githubusercontent.com/12872904/57214858-37dfe900-7026-11e9-8934-dd4e62b14f88.png">
 
 여러분은 공연장의 크기를 나타내는 자연수 C와 R이 주어져 있을 때, 대기 순서가 K인 관객에게 배정될 좌석 번호 (x,y)를 찾는 프로그램을 작성해야 한다.
 
