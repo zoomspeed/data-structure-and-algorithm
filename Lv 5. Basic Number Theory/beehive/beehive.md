@@ -35,7 +35,7 @@
 ```
 5
 ```
-
+ 
 ### 출처
 ***
 ACM-ICPC Daejeon Nationalwide Internet Competition 2004 B번  
