@@ -1,8 +1,7 @@
-<<<<<<< HEAD
 # algorithm
 # Samsung-software-expert-academy
 # Samsung-SW-Expert-Academy
-=======
+
 # 기본 자료구조&알고리즘 정리
 
 ### 1. Basic Practice
