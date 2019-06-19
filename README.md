@@ -1,7 +1,3 @@
-# algorithm
-# Samsung-software-expert-academy
-# Samsung-SW-Expert-Academy
-
 # 기본 자료구조&알고리즘 정리
 
 ### 1. Basic Practice
@@ -58,3 +54,5 @@ Java 채점 환경
         버젼 : java version "1.8.0_91"
         시간제한 : +5초
         메모리제한 : +512MB
+        
+        
