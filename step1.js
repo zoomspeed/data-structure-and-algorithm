@@ -17,20 +17,8 @@ rl.on("line", (data) => {
 
      var answer = gcd(num);
      
-     
+     console.log(answer);
 
-     rl.on("line",(data2)=>{
-
-      var num2 = data2.split(" ");
-    
-      var answer2 = multipleGcd(num2);
-      
-      console.log("answer1",answer);
-      console.log("answer2",answer2);
-      
-      rl.close();
-     });     
-     
 
 });
 
@@ -58,30 +46,5 @@ function gcd(arr){
   }
 
   return a;
-
-}
-
-function multipleGcd(arr){
-
-  var CurrentGCD = 0;
-  var temp = new Array();
-  temp[0] = arr[0];
-  temp[1] = arr[1];
-
-
-  CurrentGCD = gcd(temp);
-
-  
-
-  for(var i=2; i<arr.length; i++){
-
-    var arr1 = new Array();
-    arr1[0] = CurrentGCD;
-    arr1[1] = arr[i];
-    CurrentGCD = gcd(arr1);
-    
-  }
-  
-  return CurrentGCD;
 
 }
