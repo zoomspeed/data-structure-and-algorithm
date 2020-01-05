@@ -12,22 +12,24 @@ public class Main{
         Scanner sc = new Scanner(System.in);
         
         N = sc.nextInt();
-        q = sc.nextInt();
+
         
         arr = new int[N];
         
         left = new int[N];
         right = new int[N];
         
-        int question[] = new int[q];
-        int answer[] = new int[q];
-        
+
         for(int i=0; i<N; i++){
           
           arr[i] = sc.nextInt();
         }
         
-
+        q = sc.nextInt();
+        
+        int question[] = new int[q];
+        int answer[] = new int[q];
+                
         
         for(int i=0; i<q; i++){
           
@@ -35,26 +37,20 @@ public class Main{
         } 
         
 
-
+        quickSort(0, arr.length-1);        
 
         for(int i=0; i<answer.length; i++){
           answer[i] = binarySearch(0, arr.length-1, question[i]);        
         }
         
-
-        
         for(int i=0; i<answer.length; i++){
           if(answer[i]!=-1){
-            System.out.println("YES");
+            System.out.println(1);
           }
-          else {
-            System.out.println("NO");
+          else{
+            System.out.println(0);
           }
-          //System.out.println(answer[i]);          
-        }
- /*       for(int i=0; i<question.length; i++){
-          System.out.println(question[i]);          
-        }*/
+        }        
                 
     }
     
@@ -63,13 +59,7 @@ public class Main{
       //없을시 -1
       
       int mid;
-      
-/*      if(arr[start]>val){
-        return -1;
-      }
-      else if()*/
-      
-      
+
       if(start>end){
         return -1;
       }
@@ -98,7 +88,71 @@ public class Main{
       
 
     }
- 
+    
+    public static void quickSort(int start, int end){
+    
+
+      int left_cnt;
+      int right_cnt;
+      
+      if(start>=end){
+        
+        return;
+      }
+      int pivot = arr[start];      
+      //피봇을 배열의 맨 첫번째 위치로 지정해서 start+1로 함.
+      
+
+      
+      left_cnt = getLeft(start+1, end, pivot);
+      right_cnt = getRight(start+1, end, pivot);
+      
+      //5 9 2 8 3 7 4 6 1 10
+      //2 3 4 1   5<-pivot   9 8 7 6 10 
+      for(int i=0; i<left_cnt; i++){
+        
+        arr[start+i] = left[i];
+        //System.out.println(left[i]);
+      }
+      
+      arr[start+left_cnt] = pivot;
+      
+      for(int i=0; i<right_cnt; i++){
+        
+        arr[start+left_cnt+1+i] = right[i];
+      }
+      
+      quickSort(start, start+left_cnt-1);
+      quickSort(start+left_cnt+1, end);
+    }
+    
+    public static int getLeft(int start, int end, int pivot){
+      
+      int leftindx=0;
+      for(int i=start; i<=end; i++){
+        
+        if(arr[i]<=pivot){
+          
+          left[leftindx++] = arr[i];
+        }
+      }
+      //System.out.println(leftindx);
+      return leftindx;
+      
+    }
+    
+
+    public static int getRight(int start, int end, int pivot){
+      
+      int rightindx=0;
+      for(int i=start; i<=end; i++){
+        
+        if(arr[i]>pivot){
+          
+          right[rightindx++] = arr[i];
+        }
+      }
+      
+      return rightindx;      
+    }    
 }    
-
-
