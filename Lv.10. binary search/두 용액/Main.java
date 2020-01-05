@@ -1,104 +1,115 @@
-import java.util.Scanner;
+import java.util.*;
+
 public class Main{
   static int N;
-  static int q;
   static int arr[];
-  static  int[] left;
-  static  int[] right;
-  
+  static int index=0;//중복을 피하기 위한 인덱스
+  static int result[] = new int[2]; // 최솟값 출력할것
+  static int temp[] = new int[2]; // 최솟값 출력할것
+  static int min = 0;
+  static int current = 0;//현재 이진탐색에서 가장 작은값 저장.
     public static void main(String[] args){
-
+      Scanner sc = new Scanner(System.in);
        // Please Enter Your Code Here
-        Scanner sc = new Scanner(System.in);
+      N =sc.nextInt();
+      arr = new int[N];
+      
+      for(int i=0; i<N; i++){
+        arr[i] = sc.nextInt();
+      }
+      
+      Arrays.sort(arr);
+
+      result[0] = 1000000001;
+      result[1] = 1000000001;
+  
+      int tempMin = Integer.MAX_VALUE;
+      int arrIndx = 0;
+      for(int i=0; i<arr.length; i++){
         
-        N = sc.nextInt();
-        q = sc.nextInt();
+        min = Integer.MAX_VALUE;
+        index = i;
         
-        arr = new int[N];
+        temp[0] = arr[i];
+        arrIndx = binarySearch(0, arr.length-1, -arr[i]);
+        temp[1] = arr[arrIndx];
         
-        left = new int[N];
-        right = new int[N];
-        
-        int question[] = new int[q];
-        int answer[] = new int[q];
-        
-        for(int i=0; i<N; i++){
+        min = temp[0]+temp[1];
+
+        if(Math.abs(tempMin)>Math.abs(min)){
+          tempMin = min;
+          result[1] = temp[1];
+          result[0] = temp[0];          
           
-          arr[i] = sc.nextInt();
         }
-        
-
-        
-        for(int i=0; i<q; i++){
-          
-          question[i] = sc.nextInt();
-        } 
-        
-
-
-
-        for(int i=0; i<answer.length; i++){
-          answer[i] = binarySearch(0, arr.length-1, question[i]);        
-        }
-        
-
-        
-        for(int i=0; i<answer.length; i++){
-          if(answer[i]!=-1){
-            System.out.println("YES");
+        else if(Math.abs(tempMin)==Math.abs(min)){
+          if((temp[0]<result[0]&&temp[0]<result[1]) || (temp[1]<result[1]&&temp[1]<result[0])){
+            
+            result[1] = temp[1];
+            result[0] = temp[0];
           }
-          else {
-            System.out.println("NO");
-          }
-          //System.out.println(answer[i]);          
         }
- /*       for(int i=0; i<question.length; i++){
-          System.out.println(question[i]);          
-        }*/
-                
+      }
+
+      if(result[0]>result[1]){
+        System.out.print(result[1]+ " "+result[0]);
+      }
+      else {
+        System.out.print(result[0]+" "+result[1]);
+      }
     }
     
+    
     public static int binarySearch(int start, int end, int val){
-      //value의 index를 반환함
-      //없을시 -1
       
-      int mid;
-      
-/*      if(arr[start]>val){
-        return -1;
-      }
-      else if()*/
-      
-      
-      if(start>end){
-        return -1;
+      if(arr[start]==val){
+        return start;
       }
       
-      if(start==end){
+      if(arr[end]==val){
+        return end;
+      }
+      
+      int mid = 0;
+      
+      while(start+1<end){
         
-        if(arr[start]==val){
+        mid = (start+end)/2;
+
+        if(arr[mid]==val){
+          
+          return mid;
+        }
+        else if(arr[mid]<val){
+          
+          start = mid;
+        }
+        else{
+          end = mid;
+        }        
+      }
+      
+      if(Math.abs(arr[start]-val)<Math.abs(arr[end]-val)){
+        
+        if(index==start){
+          return end;
+        }
+        else return start;
+      }
+      else {
+        if(index==end){
           return start;
         }
-        else {
-          return -1;
-        }
-      }
-      //1 2 4 8 10 11 12 14 15 19
-      mid = (start+end)/2;
-      
-      if(arr[mid]==val){
-        return mid;
-      }
-      else if(arr[mid]>val){
-        return binarySearch(start, mid-1, val);
-      }
-      else{
-        return binarySearch(mid+1, end, val);
-      }
-      
+        else return end;
+      }  
 
     }
- 
-}    
 
+    public static boolean check(int mid ,int val){
+ 
+      return false;
+    }    
+    
+}
+    
 
