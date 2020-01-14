@@ -84,6 +84,7 @@ https://wodonggun.github.io/wodonggun.github.io/algorithm/%EB%B0%B1%EC%A4%80-156
 ### NQEEN problem
 
 http://sooyoung32.github.io/dev/2016/03/14/n-queen-algorithm.html
+https://jayce-with.tistory.com/17
 [코드](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.21.%20BFS%20%26%20DFS%20Problems/NQUEEN/Main.java)
 <br/><br/><br/><br/><br/>
 
