@@ -1,14 +1,14 @@
-## 국내에서 참가할 수 있는 프로그래밍 대회
+### 국내에서 참가할 수 있는 프로그래밍 대회
 
-### 한국 정보 올림피아드
+#### 한국 정보 올림피아드
 
-### ACM-ICPC(ACM 대학생 프로그래밍 경시대회) - 5시간 8~10문제
+#### ACM-ICPC(ACM 대학생 프로그래밍 경시대회) - 5시간 8~10문제
 
-### SAMSUNG SCPC - [코드그라운드](https://www.codeground.org/)
+#### SAMSUNG SCPC - [코드그라운드](https://www.codeground.org/)
 
-### 탑코더(TopCoder)
+#### 탑코더(TopCoder)
 
-### 구글 코드 잼(Google Code Jam) - 원하는 언어 사용 가능
+#### 구글 코드 잼(Google Code Jam) - 원하는 언어 사용 가능
 
 <br/><br/><br/>
 
