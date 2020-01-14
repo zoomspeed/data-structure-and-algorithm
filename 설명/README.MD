@@ -48,6 +48,10 @@ https://velog.io/@junyong92/TIL-Time-Complexity
 - [문제](https://www.acmicpc.net/problem/10974)
 - [설명](https://fieldanimal.tistory.com/26)
 
+- 자료구조 트리
+   [문제](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.13.%20%ED%8A%B8%EB%A6%AC(Tree)/%ED%8A%B8%EB%A6%AC%EC%88%9C%ED%9A%8C%EA%B2%B0%EA%B3%BC%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/%ED%8A%B8%EB%A6%AC%EC%88%9C%ED%9A%8C%EA%B2%B0%EA%B3%BC%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.md)
+   [코드](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.13.%20%ED%8A%B8%EB%A6%AC(Tree)/%ED%8A%B8%EB%A6%AC%EC%88%9C%ED%9A%8C%EA%B2%B0%EA%B3%BC%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/Main.java#L42)
+
   <h3>3. BFS / DFS</h3>
 
   -https://twpower.github.io/151-bfs-dfs-basic-problem
