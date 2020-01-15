@@ -52,7 +52,7 @@ https://velog.io/@junyong92/TIL-Time-Complexity
    [문제](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.13.%20%ED%8A%B8%EB%A6%AC(Tree)/%ED%8A%B8%EB%A6%AC%EC%88%9C%ED%9A%8C%EA%B2%B0%EA%B3%BC%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/%ED%8A%B8%EB%A6%AC%EC%88%9C%ED%9A%8C%EA%B2%B0%EA%B3%BC%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.md)
    [코드](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.13.%20%ED%8A%B8%EB%A6%AC(Tree)/%ED%8A%B8%EB%A6%AC%EC%88%9C%ED%9A%8C%EA%B2%B0%EA%B3%BC%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/Main.java#L42)
 
-  <h3>3. BFS / DFS</h3>
+ <h3>3. BFS / DFS</h3>
 
   -https://twpower.github.io/151-bfs-dfs-basic-problem
 
@@ -63,23 +63,23 @@ https://velog.io/@junyong92/TIL-Time-Complexity
 [BFS](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.19.%20BFS/%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%20%EB%B6%99%EC%9D%B4%EA%B8%B0/Main.java)
 [DFS](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.18.%20DFS/%EB%8B%A8%EC%A7%80%EB%B2%88%ED%98%B8%20%EB%B6%99%EC%9D%B4%EA%B8%B0/Main.java)
 
-#### DFS의 경우는 재귀함수를 알아야 한다.
+#### DFS의 경우는 재귀함수 사용.
 
 https://wodonggun.github.io/wodonggun.github.io/algorithm/%EB%B0%B1%EC%A4%80-15686-%EC%B9%98%ED%82%A8%EB%B0%B0%EB%8B%AC.html
 
-### DFS 예제 테트로미노
+#### DFS 예제 테트로미노
 
 - [예제](https://www.acmicpc.net/problem/14500)
 - [소스](http://boj.kr/6ee2e31aa5e84222979f5eaabf6e314b)
 
-### 예제 치킨배달
+#### 예제 치킨배달
 
 - [예제](https://wodonggun.github.io/wodonggun.github.io/algorithm/%EB%B0%B1%EC%A4%80-15686-%EC%B9%98%ED%82%A8%EB%B0%B0%EB%8B%AC.html)
 - [소스](http://boj.kr/a2f1d49b437d45d18c29a02042af3441)
 
 #### BFS의 경우는 Queue로 구현
 
-<h3>5. 백트래킹</h3>
+<h3>4. 백트래킹</h3>
 
 ### NQEEN problem
 
@@ -102,11 +102,14 @@ https://velog.io/@junyong92/01-%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98-%EC%88%98%EC
 
 ### O(lognN)
 
-이진탐색 - 매개변수 탐색
-
 분할정복법
 
-- 퀵정렬 https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html
+- 퀵정렬
+https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html
+
+
+이진탐색
+https://codepractice.tistory.com/101
 
 Parameter Search
 
@@ -120,9 +123,10 @@ Parameter Search
 - [코드](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.22.%20Greedy%20Algorithm/Fractional%20knapsack/Main.java)
 
 DP(Dynamic Programming)
-
+- 복잡한 문제를 간단한 여러 개의 문제로 나누어 푸는 방법
+- 부분 문제 반복과 최적 부분 구조를 가지고 있는 알고리즘을 일반적인 방법에 비해 더욱 적은 시간 내에 풀 때 사용.
 - [문제](https://www.acmicpc.net/problem/2747)
 - [코드](http://boj.kr/49c399d9f87743a9bac986b98b780cef)
 
-- [문제](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.16.%20Basic%20Dynamic%20Algorithm/%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EB%B0%B0%EC%B9%98%EC%9D%98%EA%B2%BD%EC%9A%B0%EC%9D%98%EC%88%98/Main.java)
+- [문제](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.16.%20Basic%20Dynamic%20Algorithm/%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EB%B0%B0%EC%B9%98%EC%9D%98%EA%B2%BD%EC%9A%B0%EC%9D%98%EC%88%98/%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EB%B0%B0%EC%B9%98%EC%9D%98%EA%B2%BD%EC%9A%B0%EC%9D%98%EC%88%98.md)
 - [코드](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.16.%20Basic%20Dynamic%20Algorithm/%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EB%B0%B0%EC%B9%98%EC%9D%98%EA%B2%BD%EC%9A%B0%EC%9D%98%EC%88%98/Main.java)
