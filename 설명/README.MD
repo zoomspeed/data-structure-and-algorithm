@@ -130,3 +130,8 @@ DP(Dynamic Programming)
 
 - [문제](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.16.%20Basic%20Dynamic%20Algorithm/%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EB%B0%B0%EC%B9%98%EC%9D%98%EA%B2%BD%EC%9A%B0%EC%9D%98%EC%88%98/%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EB%B0%B0%EC%B9%98%EC%9D%98%EA%B2%BD%EC%9A%B0%EC%9D%98%EC%88%98.md)
 - [코드](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.16.%20Basic%20Dynamic%20Algorithm/%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EB%B0%B0%EC%B9%98%EC%9D%98%EA%B2%BD%EC%9A%B0%EC%9D%98%EC%88%98/Main.java)
+
+greedy
+https://m.blog.naver.com/PostView.nhn?blogId=lhm0812&logNo=220853228613&proxyReferer=https%3A%2F%2Fwww.google.com%2F
+
+- [코드](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.22.%20Greedy%20Algorithm/Fractional%20knapsack/Main.java)
