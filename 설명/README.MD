@@ -38,12 +38,12 @@ https://velog.io/@junyong92/TIL-Time-Complexity
   
   ### N중 for문으로 푸는 방법 O(N^2)
 
-### ROOK
+#### ROOK
 
 - [예제](<https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv%203.%20(Simple%20Brute-Force%20Algorithm)%201/rook/rook.md>)
 - [코드](<https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv%203.%20(Simple%20Brute-Force%20Algorithm)%201/rook/Main.java>)
 
-<h3>2. 순열</h3>
+<h2>2. 순열</h2>
 
 - [문제](https://www.acmicpc.net/problem/10974)
 - [설명](https://fieldanimal.tistory.com/26)
@@ -52,7 +52,7 @@ https://velog.io/@junyong92/TIL-Time-Complexity
    [문제](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.13.%20%ED%8A%B8%EB%A6%AC(Tree)/%ED%8A%B8%EB%A6%AC%EC%88%9C%ED%9A%8C%EA%B2%B0%EA%B3%BC%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/%ED%8A%B8%EB%A6%AC%EC%88%9C%ED%9A%8C%EA%B2%B0%EA%B3%BC%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0.md)
    [코드](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.13.%20%ED%8A%B8%EB%A6%AC(Tree)/%ED%8A%B8%EB%A6%AC%EC%88%9C%ED%9A%8C%EA%B2%B0%EA%B3%BC%EC%B6%9C%EB%A0%A5%ED%95%98%EA%B8%B0/Main.java#L42)
 
- <h3>3. BFS / DFS</h3>
+ <h2>3. BFS / DFS</h2>
 
   -https://twpower.github.io/151-bfs-dfs-basic-problem
 
@@ -79,7 +79,7 @@ https://wodonggun.github.io/wodonggun.github.io/algorithm/%EB%B0%B1%EC%A4%80-156
 
 #### BFS의 경우는 Queue로 구현
 
-<h3>4. 백트래킹</h3>
+<h2>4. 백트래킹</h2>
 
 ### NQEEN problem
 
@@ -102,16 +102,16 @@ https://velog.io/@junyong92/01-%ED%94%BC%EB%B3%B4%EB%82%98%EC%B9%98-%EC%88%98%EC
 
 ### O(lognN)
 
-분할정복법
+<h2>분할정복법</h2>
 
 - 퀵정렬
 https://gmlwjd9405.github.io/2018/05/10/algorithm-quick-sort.html
 
 
-이진탐색
+<h2>이진탐색</h2>
 https://codepractice.tistory.com/101
 
-Parameter Search
+<h2>Parameter Search</h2>
 
 - [중복없는 구간](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.10.%20parameter%20search/%EC%A4%91%EB%B3%B5%EC%97%86%EB%8A%94%EA%B5%AC%EA%B0%84/%EC%A4%91%EB%B3%B5%EC%97%86%EB%8A%94%EA%B5%AC%EA%B0%84.md)
 - https://kosaf04pyh.tistory.com/86
@@ -122,7 +122,7 @@ Parameter Search
 - [문제](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.22.%20Greedy%20Algorithm/Fractional%20knapsack/Fractional%20knapsack.md)
 - [코드](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.22.%20Greedy%20Algorithm/Fractional%20knapsack/Main.java)
 
-DP(Dynamic Programming)
+<h2>DP(Dynamic Programming)</h2>
 - 복잡한 문제를 간단한 여러 개의 문제로 나누어 푸는 방법
 - 부분 문제 반복과 최적 부분 구조를 가지고 있는 알고리즘을 일반적인 방법에 비해 더욱 적은 시간 내에 풀 때 사용.
 - [문제](https://www.acmicpc.net/problem/2747)
@@ -131,7 +131,7 @@ DP(Dynamic Programming)
 - [문제](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.16.%20Basic%20Dynamic%20Algorithm/%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EB%B0%B0%EC%B9%98%EC%9D%98%EA%B2%BD%EC%9A%B0%EC%9D%98%EC%88%98/%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EB%B0%B0%EC%B9%98%EC%9D%98%EA%B2%BD%EC%9A%B0%EC%9D%98%EC%88%98.md)
 - [코드](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.16.%20Basic%20Dynamic%20Algorithm/%EC%A7%81%EC%82%AC%EA%B0%81%ED%98%95%EB%B0%B0%EC%B9%98%EC%9D%98%EA%B2%BD%EC%9A%B0%EC%9D%98%EC%88%98/Main.java)
 
-greedy
+<h2>greedy</h2>
 https://m.blog.naver.com/PostView.nhn?blogId=lhm0812&logNo=220853228613&proxyReferer=https%3A%2F%2Fwww.google.com%2F
 
 - [코드](https://github.com/zoomspeed/data-structure-and-algorithm/blob/master/Lv.22.%20Greedy%20Algorithm/Fractional%20knapsack/Main.java)
